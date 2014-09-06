@@ -89,6 +89,8 @@ public interface IHoliday {
 	}
 
 	/**
+	 * Get all states where this holiday exists.
+	 *
 	 * @return all the states.
 	 */
 	Stream<IState> getStates();
