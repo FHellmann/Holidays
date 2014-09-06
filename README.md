@@ -10,7 +10,7 @@ Calculate the holidays of a country at runtime. No need to parse some special we
 
 **Sample**
 
-This sample requests every german holiday, filters if it is a national one and sort it desc.
+This sample requests every german holiday, filters if it is a national one and sort it ascending.
 
 ```java
 		Country.GERMANY
