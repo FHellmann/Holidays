@@ -26,7 +26,10 @@ import java.util.stream.Stream;
 public enum Country {
 	/** Germany */
 	GERMANY(com.fhellmann.holidays.de.State.values(),
-			com.fhellmann.holidays.de.Holiday.values());
+			com.fhellmann.holidays.de.Holiday.values()),
+	/** Austria */
+	AUSTRIA(com.fhellmann.holidays.at.State.values(),
+			com.fhellmann.holidays.at.Holiday.values());
 
 	private final IState[] states;
 	private final IHoliday[] holidays;
